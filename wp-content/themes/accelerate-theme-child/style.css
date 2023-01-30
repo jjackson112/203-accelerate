@@ -1,0 +1,93 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	  Jasmine
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* HOMEPAGE STYLES */
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	text-align: center;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.site-content h4 {
+    text-transform: uppercase;
+}
+
+/* BODY STYLES */
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+    padding: .75em 0;
+  }
+
+/* BLOG STYLES */
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* CASE STUDY STYLES */
+
+aside .mailchimp-sidebar {
+    float: left;
+    width: 300px;
+}
+
+div .mailchimp-images {
+    float: right;
+    width: 600px;
+}
+
+/* Archive page styles */
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+/* Contact Page */
+
+
+
+/* FOOTER STYLES */
+
+footer .social-media-navigation {
+    display: flex;
+    justify-content: flex-end;
+    color: #000000;
+}
