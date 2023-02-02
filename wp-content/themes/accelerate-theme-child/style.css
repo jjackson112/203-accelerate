@@ -20,12 +20,43 @@ Text Domain:  accelerate-theme-child
 	text-align: center;
 }
 
+.page-header clearfix {
+    display: flex;
+    justify-content: space-between;
+}
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.site-content h4 {
-    text-transform: uppercase;
+#work-title {
+    display: flex;
+    justify-content: center;
+    padding: 15px 5px;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+.featured-work-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.individual-featured-work {
+    padding: 0 25px;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+}
+
+.menu-social-media-nav-container {
+    display: flex;
+    flex-direction: row;
 }
 
 /* BODY STYLES */
@@ -81,8 +112,92 @@ div.case-study-images img {
 }
 
 /* Contact Page */
+/*Styling all field labels*/
 
+#nf-form-1-cont {
+    width: 100%;
+}
 
+#nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+    font-weight: 600;
+}
+.send-button, #nf-field-4-wrap {
+    float: right;
+    background-color: #45ac9d;
+    width: 250px;
+}
+
+/* About Page*/
+.primary-hero-content {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-hero-statement {
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+}
+
+.about-content {
+    padding: 0px 25px;
+    margin: 35px 180px;
+    padding-bottom: 50px;
+}
+
+.wp-block-image figure {
+    padding: 20px 40px;
+}
+
+hr {
+    height: 1px;
+    width: 69%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.footer-text {
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 20px;
+    color: #333;
+}
+
+.footer-text, .contact-button {
+    padding-bottom: 40px;
+}
+
+.contact-button {
+    background: none repeat scroll 0 0 #45ac9d;
+    height: 45px;
+    width: 250px;
+}
+
+.contact-us {
+    color: #ffffff;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.social-media-navigation {
+    display: flex;
+    flex-direction: row;
+}
 
 /* FOOTER STYLES */
 

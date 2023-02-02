@@ -24,9 +24,9 @@
  </div><!-- #primary -->
 
  <section class="featured-work">
-    <div class="site-content">
-        <h4>Featured Work</h4>
-        <ul class="homepage-featured-work">
+    <div class="featured-content">
+        <h2 id="work-title">Featured Work</h2>
+        <ul class="featured-work-list">
             <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
                  <!-- the loop -->
                  <?php while ( have_posts() ) : the_post(); 
@@ -60,5 +60,11 @@
          </div>
      </div>
  </section>
+
+ <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
 
 <?php get_footer(); ?>
