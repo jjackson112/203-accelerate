@@ -121,7 +121,8 @@ div.case-study-images img {
 #nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
     font-weight: 600;
 }
-.send-button, #nf-field-4-wrap {
+
+#nf-field-4 {
     float: right;
     background-color: #45ac9d;
     width: 250px;
